@@ -34,8 +34,6 @@ public class AlunoController {
         return alunoServiceImpl.getAllAvaliacaoFisicaId(id);
     }
 
-    @Autowired
-    AlunoRepository alunoRepository;
 
     @DeleteMapping("/{id}")
     public void delete(@PathVariable Long id) {
