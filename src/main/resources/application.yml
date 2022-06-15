@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: ("url do banco de dados")
+    username: ("username para acessar o banco de dados postgresql")
+    password: (password para acessar o banco de dados postgresql")
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.format_sql: true
+
+logging:
+  level:
+    org:
+      hibernate:
+        type: trace
